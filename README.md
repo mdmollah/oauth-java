@@ -83,7 +83,7 @@ public class DefaultApiExample {
         String refreshToken = "refreshToken_example"; // String | refresh token (Required for refreshing token)
         String scope = "scope_example"; // String | optional space separated list of services and roles for which to grant token (do not include when refreshing token)
         try {
-            List<AccessTokenResponse> result = apiInstance.getAccessToken(grantType, username, password, refreshToken, scope);
+            Object result = apiInstance.getAccessToken(grantType, username, password, refreshToken, scope);
             System.out.println(result);
         } catch (ApiException e) {
             System.err.println("Exception when calling DefaultApi#getAccessToken");

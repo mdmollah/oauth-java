@@ -1,8 +1,8 @@
 /*
  * SWIFT Cloud Gateway OAuth Token API
  * OAuth token operations for SWIFT Cloud Gateway
- *
  */
+
 
 
 package com.swift.api;
@@ -21,8 +21,6 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 
 
-import com.swift.model.AccessTokenError;
-import com.swift.model.AccessTokenResponse;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -134,11 +132,11 @@ public class DefaultApi {
      * @param password authetnication credentials (Required for granting token) (optional)
      * @param refreshToken refresh token (Required for refreshing token) (optional)
      * @param scope optional space separated list of services and roles for which to grant token (do not include when refreshing token) (optional)
-     * @return List&lt;AccessTokenResponse&gt;
+     * @return Object
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public List<AccessTokenResponse> getAccessToken(String grantType, String username, String password, String refreshToken, String scope) throws ApiException {
-        ApiResponse<List<AccessTokenResponse>> resp = getAccessTokenWithHttpInfo(grantType, username, password, refreshToken, scope);
+    public Object getAccessToken(String grantType, String username, String password, String refreshToken, String scope) throws ApiException {
+        ApiResponse<Object> resp = getAccessTokenWithHttpInfo(grantType, username, password, refreshToken, scope);
         return resp.getData();
     }
 
@@ -150,12 +148,12 @@ public class DefaultApi {
      * @param password authetnication credentials (Required for granting token) (optional)
      * @param refreshToken refresh token (Required for refreshing token) (optional)
      * @param scope optional space separated list of services and roles for which to grant token (do not include when refreshing token) (optional)
-     * @return ApiResponse&lt;List&lt;AccessTokenResponse&gt;&gt;
+     * @return ApiResponse&lt;Object&gt;
      * @throws ApiException If fail to call the API, e.g. server error or cannot deserialize the response body
      */
-    public ApiResponse<List<AccessTokenResponse>> getAccessTokenWithHttpInfo(String grantType, String username, String password, String refreshToken, String scope) throws ApiException {
+    public ApiResponse<Object> getAccessTokenWithHttpInfo(String grantType, String username, String password, String refreshToken, String scope) throws ApiException {
         com.squareup.okhttp.Call call = getAccessTokenValidateBeforeCall(grantType, username, password, refreshToken, scope, null, null);
-        Type localVarReturnType = new TypeToken<List<AccessTokenResponse>>(){}.getType();
+        Type localVarReturnType = new TypeToken<Object>(){}.getType();
         return apiClient.execute(call, localVarReturnType);
     }
 
@@ -171,7 +169,7 @@ public class DefaultApi {
      * @return The request call
      * @throws ApiException If fail to process the API call, e.g. serializing the request body object
      */
-    public com.squareup.okhttp.Call getAccessTokenAsync(String grantType, String username, String password, String refreshToken, String scope, final ApiCallback<List<AccessTokenResponse>> callback) throws ApiException {
+    public com.squareup.okhttp.Call getAccessTokenAsync(String grantType, String username, String password, String refreshToken, String scope, final ApiCallback<Object> callback) throws ApiException {
 
         ProgressResponseBody.ProgressListener progressListener = null;
         ProgressRequestBody.ProgressRequestListener progressRequestListener = null;
@@ -193,7 +191,7 @@ public class DefaultApi {
         }
 
         com.squareup.okhttp.Call call = getAccessTokenValidateBeforeCall(grantType, username, password, refreshToken, scope, progressListener, progressRequestListener);
-        Type localVarReturnType = new TypeToken<List<AccessTokenResponse>>(){}.getType();
+        Type localVarReturnType = new TypeToken<Object>(){}.getType();
         apiClient.executeAsync(call, localVarReturnType, callback);
         return call;
     }

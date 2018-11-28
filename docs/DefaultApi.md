@@ -10,7 +10,7 @@ Method | HTTP request | Description
 
 <a name="getAccessToken"></a>
 # **getAccessToken**
-> List&lt;AccessTokenResponse&gt; getAccessToken(grantType, username, password, refreshToken, scope)
+> Object getAccessToken(grantType, username, password, refreshToken, scope)
 
 token grant or refresh request
 
@@ -39,7 +39,7 @@ String password = "password_example"; // String | authetnication credentials (Re
 String refreshToken = "refreshToken_example"; // String | refresh token (Required for refreshing token)
 String scope = "scope_example"; // String | optional space separated list of services and roles for which to grant token (do not include when refreshing token)
 try {
-    List<AccessTokenResponse> result = apiInstance.getAccessToken(grantType, username, password, refreshToken, scope);
+    Object result = apiInstance.getAccessToken(grantType, username, password, refreshToken, scope);
     System.out.println(result);
 } catch (ApiException e) {
     System.err.println("Exception when calling DefaultApi#getAccessToken");
@@ -59,7 +59,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**List&lt;AccessTokenResponse&gt;**](AccessTokenResponse.md)
+**Object**
 
 ### Authorization
 
