@@ -3,18 +3,16 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
+package com.swift.oauth.api;
 
-
-package com.swift.api;
-
-import com.swift.ApiCallback;
-import com.swift.ApiClient;
-import com.swift.ApiException;
-import com.swift.ApiResponse;
-import com.swift.Configuration;
-import com.swift.Pair;
-import com.swift.ProgressRequestBody;
-import com.swift.ProgressResponseBody;
+import com.swift.oauth.ApiCallback;
+import com.swift.oauth.ApiClient;
+import com.swift.oauth.ApiException;
+import com.swift.oauth.ApiResponse;
+import com.swift.oauth.Configuration;
+import com.swift.oauth.Pair;
+import com.swift.oauth.ProgressRequestBody;
+import com.swift.oauth.ProgressResponseBody;
 
 import com.google.gson.reflect.TypeToken;
 

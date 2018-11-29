@@ -4,8 +4,7 @@
  */
 
 
-
-package com.swift;
+package com.swift.oauth;
 
 import java.util.List;
 import java.util.Map;

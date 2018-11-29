@@ -3,11 +3,9 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
+package com.swift.oauth.auth;
 
-
-package com.swift.auth;
-
-import com.swift.Pair;
+import com.swift.oauth.Pair;
 
 import java.util.Map;
 import java.util.List;

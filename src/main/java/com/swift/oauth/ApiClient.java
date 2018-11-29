@@ -3,9 +3,7 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
-
-
-package com.swift;
+package com.swift.oauth;
 
 import com.squareup.okhttp.*;
 import com.squareup.okhttp.internal.http.HttpMethod;
@@ -39,10 +37,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.swift.auth.Authentication;
-import com.swift.auth.HttpBasicAuth;
-import com.swift.auth.ApiKeyAuth;
-import com.swift.auth.OAuth;
+import com.swift.oauth.auth.Authentication;
+import com.swift.oauth.auth.HttpBasicAuth;
+import com.swift.oauth.auth.ApiKeyAuth;
+import com.swift.oauth.auth.OAuth;
 
 public class ApiClient {
 

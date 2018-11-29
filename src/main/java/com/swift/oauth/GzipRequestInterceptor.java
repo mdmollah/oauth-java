@@ -3,8 +3,7 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
-
-package com.swift;
+package com.swift.oauth;
 
 import com.squareup.okhttp.*;
 import okio.Buffer;

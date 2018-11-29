@@ -1,4 +1,4 @@
-# oauth-java
+# oauth-java [![Build Status](https://travis-ci.com/swiftinc/oauth-java.svg?branch=master)](https://travis-ci.com/swiftinc/oauth-java)
 
 ## Requirements
 
@@ -26,7 +26,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-    <groupId>com.swift</groupId>
+    <groupId>com.swift.oauth</groupId>
     <artifactId>oauth-java</artifactId>
     <version>1.0.0</version>
     <scope>compile</scope>
@@ -38,7 +38,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.swift:oauth-java:1.0.0"
+compile "com.swift.oauth:oauth-java:1.0.0"
 ```
 
 ### Others
@@ -58,10 +58,10 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import com.swift.*;
-import com.swift.auth.*;
-import com.swift.model.*;
-import com.swift.api.DefaultApi;
+import com.swift.oauth.*;
+import com.swift.oauth.auth.*;
+import com.swift.oauth.model.*;
+import com.swift.oauth.api.DefaultApi;
 
 import java.io.File;
 import java.util.*;
@@ -124,5 +124,5 @@ It's recommended to create an instance of `ApiClient` per thread in a multithrea
 
 ## Author
 
-Hassan.MOLLAH@swift.com
+
 
