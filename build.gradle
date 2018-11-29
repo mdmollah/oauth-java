@@ -1,7 +1,7 @@
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
-group = 'com.swift'
+group = 'com.swift.oauth'
 version = '1.0.0'
 
 buildscript {

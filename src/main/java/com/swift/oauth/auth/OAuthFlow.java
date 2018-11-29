@@ -3,9 +3,7 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
-
-
-package com.swift.auth;
+package com.swift.oauth.auth;
 
 public enum OAuthFlow {
     accessCode, implicit, password, application

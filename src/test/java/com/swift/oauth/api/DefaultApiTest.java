@@ -3,9 +3,9 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
-package com.swift.api;
+package com.swift.oauth.api;
 
-import com.swift.ApiException;
+import com.swift.oauth.ApiException;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;

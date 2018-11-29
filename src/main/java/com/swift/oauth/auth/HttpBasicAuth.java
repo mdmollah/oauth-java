@@ -4,10 +4,9 @@
  */
 
 
+package com.swift.oauth.auth;
 
-package com.swift.auth;
-
-import com.swift.Pair;
+import com.swift.oauth.Pair;
 
 import com.squareup.okhttp.Credentials;
 

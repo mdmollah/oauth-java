@@ -1,6 +1,6 @@
 lazy val root = (project in file(".")).
   settings(
-    organization := "com.swift",
+    organization := "com.swift.oauth",
     name := "oauth-java",
     version := "1.0.0",
     scalaVersion := "2.11.4",

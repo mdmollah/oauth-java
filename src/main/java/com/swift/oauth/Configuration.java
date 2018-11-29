@@ -3,8 +3,7 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
-
-package com.swift;
+package com.swift.oauth;
 
 public class Configuration {
     private static ApiClient defaultApiClient = new ApiClient();

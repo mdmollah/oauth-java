@@ -4,9 +4,9 @@
  */
 
 
-package com.swift.auth;
+package com.swift.oauth.auth;
 
-import com.swift.Pair;
+import com.swift.oauth.Pair;
 
 import java.util.Map;
 import java.util.List;

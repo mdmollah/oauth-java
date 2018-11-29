@@ -4,7 +4,7 @@
  */
 
 
-package com.swift;
+package com.swift.oauth;
 
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.ResponseBody;

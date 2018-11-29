@@ -19,11 +19,11 @@ Implementation of the OAuth 2.0 password and refresh grant types (see RFC6749)
 ### Example
 ```java
 // Import classes:
-//import com.swift.ApiClient;
-//import com.swift.ApiException;
-//import com.swift.Configuration;
-//import com.swift.auth.*;
-//import com.swift.api.DefaultApi;
+//import com.swift.oauth.ApiClient;
+//import com.swift.oauth.ApiException;
+//import com.swift.oauth.Configuration;
+//import com.swift.oauth.auth.*;
+//import com.swift.oauth.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -81,11 +81,11 @@ Implementation of the OAuth 2.0 revoke token (see RFC7009)
 ### Example
 ```java
 // Import classes:
-//import com.swift.ApiClient;
-//import com.swift.ApiException;
-//import com.swift.Configuration;
-//import com.swift.auth.*;
-//import com.swift.api.DefaultApi;
+//import com.swift.oauth.ApiClient;
+//import com.swift.oauth.ApiException;
+//import com.swift.oauth.Configuration;
+//import com.swift.oauth.auth.*;
+//import com.swift.oauth.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 

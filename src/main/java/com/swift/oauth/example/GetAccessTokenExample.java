@@ -1,10 +1,10 @@
-package com.swift.example;
+package com.swift.oauth.example;
 
-import com.swift.ApiClient;
-import com.swift.ApiException;
-import com.swift.Configuration;
-import com.swift.api.DefaultApi;
-import com.swift.auth.HttpBasicAuth;
+import com.swift.oauth.ApiClient;
+import com.swift.oauth.ApiException;
+import com.swift.oauth.Configuration;
+import com.swift.oauth.api.DefaultApi;
+import com.swift.oauth.auth.HttpBasicAuth;
 
 public class GetAccessTokenExample {
 

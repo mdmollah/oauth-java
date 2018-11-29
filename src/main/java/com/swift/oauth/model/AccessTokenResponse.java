@@ -4,7 +4,7 @@
  */
 
 
-package com.swift.model;
+package com.swift.oauth.model;
 
 import java.util.Objects;
 import com.google.gson.TypeAdapter;

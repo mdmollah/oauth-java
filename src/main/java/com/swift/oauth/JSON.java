@@ -3,8 +3,7 @@
  * OAuth token operations for SWIFT Cloud Gateway
  */
 
-
-package com.swift;
+package com.swift.oauth;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -20,7 +19,7 @@ import org.threeten.bp.LocalDate;
 import org.threeten.bp.OffsetDateTime;
 import org.threeten.bp.format.DateTimeFormatter;
 
-import com.swift.model.*;
+import com.swift.oauth.model.*;
 
 import java.io.IOException;
 import java.io.StringReader;
