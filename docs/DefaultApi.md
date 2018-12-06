@@ -19,11 +19,11 @@ The token endpoint is used to issue OAuth access tokens for the purpose of acces
 ### Example
 ```java
 // Import classes:
-//import com.swift.oauth.java_client.ApiClient;
-//import com.swift.oauth.java_client.ApiException;
-//import com.swift.oauth.java_client.Configuration;
-//import com.swift.oauth.java_client.auth.*;
-//import com.swift.oauth.java_client.api.DefaultApi;
+//import com.swift.oauth.oauth_sdk.ApiClient;
+//import com.swift.oauth.oauth_sdk.ApiException;
+//import com.swift.oauth.oauth_sdk.Configuration;
+//import com.swift.oauth.oauth_sdk.auth.*;
+//import com.swift.oauth.oauth_sdk.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
@@ -81,11 +81,11 @@ The revoke API is used to dispose of OAuth tokens when use is no longer needed. 
 ### Example
 ```java
 // Import classes:
-//import com.swift.oauth.java_client.ApiClient;
-//import com.swift.oauth.java_client.ApiException;
-//import com.swift.oauth.java_client.Configuration;
-//import com.swift.oauth.java_client.auth.*;
-//import com.swift.oauth.java_client.api.DefaultApi;
+//import com.swift.oauth.oauth_sdk.ApiClient;
+//import com.swift.oauth.oauth_sdk.ApiException;
+//import com.swift.oauth.oauth_sdk.Configuration;
+//import com.swift.oauth.oauth_sdk.auth.*;
+//import com.swift.oauth.oauth_sdk.api.DefaultApi;
 
 ApiClient defaultClient = Configuration.getDefaultApiClient();
 
