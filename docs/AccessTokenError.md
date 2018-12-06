@@ -4,8 +4,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**error** | [**ErrorEnum**](#ErrorEnum) | standard OAuth token grant error codes (see RFC 6749) | 
-**errorDescription** | **String** | English description of the error | 
+**error** | [**ErrorEnum**](#ErrorEnum) | The standard OAuth token grant error code (see RFC 6749). | 
+**errorDescription** | **String** | A natural language description of the error. | 
 
 
 <a name="ErrorEnum"></a>
