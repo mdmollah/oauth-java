@@ -53,9 +53,9 @@
 							<inputSpec>${project.build.directory}/swagger.yaml</inputSpec>
 							<language>java</language>
 							<output>${project.build.directory}/generated-sources</output>
-							<apiPackage>com.swift.oauth.java-client.api</apiPackage>
-							<modelPackage>com.swift.oauth.java-client.model</modelPackage>
-							<invokerPackage>com.swift.oauth.java-client</invokerPackage>
+							<apiPackage>com.swift.oauth.oauth-sdk.api</apiPackage>
+							<modelPackage>com.swift.oauth.oauth-sdk.model</modelPackage>
+							<invokerPackage>com.swift.oauth.oauth-sdk</invokerPackage>
 						</configuration>
 					</execution>
 				</executions>

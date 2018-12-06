@@ -1,4 +1,4 @@
-package com.swift.oauth.java_client.api;
+package com.swift.oauth.oauth_sdk.api;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -6,8 +6,8 @@ import static org.mockito.Mockito.when;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.swift.oauth.java_client.ApiException;
-import com.swift.oauth.java_client.model.AccessTokenResponse;
+import com.swift.oauth.oauth_sdk.ApiException;
+import com.swift.oauth.oauth_sdk.model.AccessTokenResponse;
 
 /**
  * API tests for DefaultApi

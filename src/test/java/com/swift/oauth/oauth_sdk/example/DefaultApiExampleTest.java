@@ -1,13 +1,13 @@
-package com.swift.oauth.java_client.example;
+package com.swift.oauth.oauth_sdk.example;
 
 import org.junit.Ignore;
 import org.junit.Test;
 
-import com.swift.oauth.java_client.ApiClient;
-import com.swift.oauth.java_client.ApiException;
-import com.swift.oauth.java_client.Configuration;
-import com.swift.oauth.java_client.api.DefaultApi;
-import com.swift.oauth.java_client.auth.HttpBasicAuth;
+import com.swift.oauth.oauth_sdk.ApiClient;
+import com.swift.oauth.oauth_sdk.ApiException;
+import com.swift.oauth.oauth_sdk.Configuration;
+import com.swift.oauth.oauth_sdk.auth.HttpBasicAuth;
+import com.swift.oauth.oauth_sdk.api.DefaultApi;
 
 /**
  * API tests for DefaultApi
