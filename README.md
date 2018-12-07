@@ -1,4 +1,4 @@
-# oauth-java [![Build Status](https://travis-ci.com/swiftinc/oauth-java.svg?branch=master)](https://travis-ci.com/swiftinc/oauth-java)
+# oauth-java-client [![Build Status](https://travis-ci.com/swiftinc/oauth-java.svg?branch=master)](https://travis-ci.com/swiftinc/oauth-java)
 
 ## Requirements
 
